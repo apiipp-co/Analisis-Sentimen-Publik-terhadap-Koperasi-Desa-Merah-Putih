@@ -246,4 +246,4 @@ Skema lengkap: [`sql/schema.sql`](sql/schema.sql).
 
 ---
 
-**Dibuat sebagai Final Project Data Analyst/Data Science — BLKPP DIY**
+**Sekian Terimakasih**
