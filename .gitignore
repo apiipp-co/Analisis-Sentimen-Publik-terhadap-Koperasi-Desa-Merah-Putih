@@ -1,0 +1,19 @@
+# Environment & credentials
+.env
+streamlit/.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Catatan: data/ dan models/ SENGAJA disertakan (bukan di-gitignore) karena
+# ukurannya kecil (~148MB total, semua file <30MB, di bawah limit GitHub 100MB/file)
+# dan brief mewajibkan folder ini ada di repository.

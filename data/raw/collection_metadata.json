@@ -1,0 +1,21 @@
+{
+  "source_platform": "TikTok (video comments + replies)",
+  "topic": "Koperasi Desa Merah Putih (Kopdes)",
+  "collection_method": "TikTok comment scraper (per-video export), 27 video terkait topik Kopdes",
+  "n_rows_raw": 220051,
+  "n_unique_videos": 27,
+  "date_range_start": "2025-07-13 14:06:39",
+  "date_range_end": "2026-05-27 06:45:05",
+  "columns": [
+    "video_id",
+    "comment_id",
+    "parent_comment_id",
+    "level",
+    "username",
+    "nickname",
+    "comment",
+    "create_time"
+  ],
+  "sha256_csv": "bf5637a4ae81ba8411610851a47f883f337bb4233887cc423edf30d7d147e2bb",
+  "sha256_parquet": "f587277b8ce852cdb65caefc1a3573b606071df24d6e0e0470a4fbc5463a3530"
+}

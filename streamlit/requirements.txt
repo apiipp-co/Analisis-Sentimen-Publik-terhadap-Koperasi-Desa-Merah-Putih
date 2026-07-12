@@ -1,0 +1,12 @@
+streamlit>=1.36
+pandas
+scikit-learn==1.6.1
+joblib
+sqlalchemy
+psycopg2-binary
+python-dotenv
+Sastrawi
+emoji
+plotly
+Pillow
+pyarrow

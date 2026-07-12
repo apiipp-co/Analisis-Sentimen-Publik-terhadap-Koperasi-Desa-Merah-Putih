@@ -1,0 +1,7 @@
+step,n_before,n_after,n_removed,pct_removed_of_before,reason
+"Dedup (video_id, comment_id)",220051,127139,92912,42.22,"Duplikat artefak scraper (100% konten identik, hanya level berbeda) - dikonfirmasi di Tahap 2 audit"
+Drop comment NaN,127139,126955,184,0.14,Tidak ada teks untuk dianalisis (comment kosong/NaN)
+Drop [Sticker] murni,126955,125149,1806,1.42,"Placeholder sistem TikTok, tanpa konten teks asli dari pengguna"
+Drop punctuation-only,125149,120894,4255,3.4,Tidak mengandung kata/token bermakna secara tekstual
+Drop emoji-only,120894,120894,0,0.0,Akan menjadi string kosong setelah wajib Remove Emoji di Tahap 5 preprocessing
+Drop sisa very-short (<=2 char) non-bermakna,120894,120707,187,0.15,"Mention/inisial/angka lepas tanpa sinyal sentimen tekstual (mayoritas mention ""@x"" atau huruf tunggal)"

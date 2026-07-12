@@ -1,0 +1,17 @@
+{
+  "model_used": "mdhugol/indonesia-bert-sentiment-classification",
+  "n_rows_labeled": 119565,
+  "label_distribution": {
+    "negative": 69362,
+    "neutral": 27879,
+    "positive": 22324
+  },
+  "label_distribution_pct": {
+    "negative": 58.01,
+    "neutral": 23.32,
+    "positive": 18.67
+  },
+  "mean_confidence": 0.8885728691506714,
+  "median_confidence": 0.9679,
+  "low_confidence_rows_below_0.6": 10087
+}

@@ -1,0 +1,4 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted Precision,Weighted Recall,Weighted F1
+Logistic Regression,0.7198,0.6787,0.7288,0.6932,0.7569,0.7198,0.7279
+SVM (LinearSVC),0.7265,0.6799,0.6993,0.6864,0.7421,0.7265,0.7313
+Naive Bayes,0.7169,0.7194,0.5961,0.6289,0.7176,0.7169,0.6957

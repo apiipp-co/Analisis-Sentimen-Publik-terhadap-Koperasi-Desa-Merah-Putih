@@ -1,0 +1,25 @@
+{
+  "n_rows_input": 120707,
+  "n_rows_output": 118778,
+  "n_unique_tokens_total": 45024,
+  "n_unique_tokens_stemmed": 14436,
+  "freq_threshold_for_stemming": 3,
+  "pct_occurrence_coverage_stemmed": 95.37,
+  "avg_tokens_per_comment": 6.613354324874977,
+  "median_tokens_per_comment": 5.0,
+  "stopwords_total": 187,
+  "steps_applied": [
+    "case_folding",
+    "remove_url",
+    "remove_mention",
+    "remove_hashtag",
+    "remove_system_tags",
+    "remove_emoji",
+    "remove_number",
+    "remove_punctuation",
+    "normalize_elongation",
+    "tokenization",
+    "stopword_removal (formal+colloquial)",
+    "stemming (Sastrawi, frequency-thresholded + cached)"
+  ]
+}

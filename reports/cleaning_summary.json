@@ -1,0 +1,56 @@
+{
+  "n_rows_raw": 220051,
+  "n_rows_clean": 120707,
+  "n_rows_removed_total": 99344,
+  "pct_removed_total": 45.15,
+  "steps": [
+    {
+      "step": "Dedup (video_id, comment_id)",
+      "n_before": 220051,
+      "n_after": 127139,
+      "n_removed": 92912,
+      "pct_removed_of_before": 42.22,
+      "reason": "Duplikat artefak scraper (100% konten identik, hanya level berbeda) - dikonfirmasi di Tahap 2 audit"
+    },
+    {
+      "step": "Drop comment NaN",
+      "n_before": 127139,
+      "n_after": 126955,
+      "n_removed": 184,
+      "pct_removed_of_before": 0.14,
+      "reason": "Tidak ada teks untuk dianalisis (comment kosong/NaN)"
+    },
+    {
+      "step": "Drop [Sticker] murni",
+      "n_before": 126955,
+      "n_after": 125149,
+      "n_removed": 1806,
+      "pct_removed_of_before": 1.42,
+      "reason": "Placeholder sistem TikTok, tanpa konten teks asli dari pengguna"
+    },
+    {
+      "step": "Drop punctuation-only",
+      "n_before": 125149,
+      "n_after": 120894,
+      "n_removed": 4255,
+      "pct_removed_of_before": 3.4,
+      "reason": "Tidak mengandung kata/token bermakna secara tekstual"
+    },
+    {
+      "step": "Drop emoji-only",
+      "n_before": 120894,
+      "n_after": 120894,
+      "n_removed": 0,
+      "pct_removed_of_before": 0.0,
+      "reason": "Akan menjadi string kosong setelah wajib Remove Emoji di Tahap 5 preprocessing"
+    },
+    {
+      "step": "Drop sisa very-short (<=2 char) non-bermakna",
+      "n_before": 120894,
+      "n_after": 120707,
+      "n_removed": 187,
+      "pct_removed_of_before": 0.15,
+      "reason": "Mention/inisial/angka lepas tanpa sinyal sentimen tekstual (mayoritas mention \"@x\" atau huruf tunggal)"
+    }
+  ]
+}

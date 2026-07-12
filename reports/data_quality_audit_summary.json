@@ -1,0 +1,16 @@
+{
+  "lineage_verified": true,
+  "n_rows_raw": 220051,
+  "n_duplicate_scraper_rows": 92912,
+  "n_comment_null": 305,
+  "n_sticker_only": 2939,
+  "n_emoji_only": 6736,
+  "n_punct_only": 6975,
+  "n_very_short_le2": 2502,
+  "n_contains_url": 41,
+  "n_nickname_null": 23,
+  "n_non_latin_script": 36,
+  "n_future_timestamps": 0,
+  "estimated_clean_rows_min": 120000,
+  "estimated_clean_rows_max": 130000
+}

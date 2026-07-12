@@ -1,0 +1,38 @@
+{
+  "models_trained": [
+    "Logistic Regression",
+    "SVM (LinearSVC)",
+    "Naive Bayes"
+  ],
+  "best_model": "Logistic Regression",
+  "comparison_table": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.719776056575181,
+      "Macro Precision": 0.6787445157288275,
+      "Macro Recall": 0.7287914672809174,
+      "Macro F1": 0.6932149164618538,
+      "CV F1-macro (mean)": 0.6831532195900598,
+      "Training Time (s)": 9.204300880432129
+    },
+    {
+      "Model": "SVM (LinearSVC)",
+      "Accuracy": 0.7264691025425156,
+      "Macro Precision": 0.6799308076416782,
+      "Macro Recall": 0.6992819216904979,
+      "Macro F1": 0.6864172719883794,
+      "CV F1-macro (mean)": 0.6779683421943421,
+      "Training Time (s)": 3.5582382678985596
+    },
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.7168715271931302,
+      "Macro Precision": 0.719415590473032,
+      "Macro Recall": 0.596063881750271,
+      "Macro F1": 0.6288658576753311,
+      "CV F1-macro (mean)": 0.6267677104212757,
+      "Training Time (s)": 0.23323917388916016
+    }
+  ],
+  "selection_criterion": "Macro F1-score pada test set (robust terhadap class imbalance)"
+}

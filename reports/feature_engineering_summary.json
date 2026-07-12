@@ -1,0 +1,23 @@
+{
+  "method": "TF-IDF",
+  "vocab_size": 10000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "max_features": 10000,
+  "min_df": 3,
+  "max_df": 0.9,
+  "n_train": 95022,
+  "n_test": 23756,
+  "train_class_dist": {
+    "negative": 55266,
+    "neutral": 22154,
+    "positive": 17602
+  },
+  "test_class_dist": {
+    "negative": 13817,
+    "neutral": 5538,
+    "positive": 4401
+  }
+}

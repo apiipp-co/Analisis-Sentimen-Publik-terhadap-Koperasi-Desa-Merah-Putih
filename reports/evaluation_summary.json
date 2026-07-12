@@ -1,0 +1,70 @@
+{
+  "best_model": "Logistic Regression",
+  "best_model_metrics": {
+    "Model": "Logistic Regression",
+    "Accuracy": 0.7198,
+    "Macro Precision": 0.6787,
+    "Macro Recall": 0.7288,
+    "Macro F1": 0.6932,
+    "Weighted Precision": 0.7569,
+    "Weighted Recall": 0.7198,
+    "Weighted F1": 0.7279
+  },
+  "all_models_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.7198,
+      "Macro Precision": 0.6787,
+      "Macro Recall": 0.7288,
+      "Macro F1": 0.6932,
+      "Weighted Precision": 0.7569,
+      "Weighted Recall": 0.7198,
+      "Weighted F1": 0.7279
+    },
+    {
+      "Model": "SVM (LinearSVC)",
+      "Accuracy": 0.7265,
+      "Macro Precision": 0.6799,
+      "Macro Recall": 0.6993,
+      "Macro F1": 0.6864,
+      "Weighted Precision": 0.7421,
+      "Weighted Recall": 0.7265,
+      "Weighted F1": 0.7313
+    },
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.7169,
+      "Macro Precision": 0.7194,
+      "Macro Recall": 0.5961,
+      "Macro F1": 0.6289,
+      "Weighted Precision": 0.7176,
+      "Weighted Recall": 0.7169,
+      "Weighted F1": 0.6957
+    }
+  ],
+  "n_test_samples": 23756,
+  "n_errors_best_model": 6657,
+  "error_rate_best_model": 0.2802,
+  "confusion_matrix_best_model": [
+    [
+      3223,
+      618,
+      560
+    ],
+    [
+      682,
+      4157,
+      699
+    ],
+    [
+      1952,
+      2146,
+      9719
+    ]
+  ],
+  "labels_order": [
+    "positive",
+    "neutral",
+    "negative"
+  ]
+}
