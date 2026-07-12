@@ -1,10 +1,10 @@
 from sqlalchemy import create_engine, text
 
-DB_HOST = "aws-1-ap-northeast-1.pooler.supabase.com"
+DB_HOST = "supabase kamu apa namannya"
 DB_PORT = "6543"
-DB_NAME = "postgres"
-DB_USER = "postgres.wqnqtzvsyzfwvvzxvgii"
-DB_PASSWORD = "nupnyk-tajmuv-9weFve"
+DB_NAME = "hehehe898x"
+DB_USER = "apipgantengg"
+DB_PASSWORD = "hehehegoodluck"
 
 engine = create_engine(
     f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
