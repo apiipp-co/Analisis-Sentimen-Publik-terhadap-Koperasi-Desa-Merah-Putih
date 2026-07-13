@@ -1,0 +1,10 @@
+# Additional dependencies for the notebooks and IndoBERT labeling pipeline.
+# Install after requirements.txt when working on the data pipeline locally.
+torch>=2.0
+transformers>=4.40
+matplotlib>=3.8
+seaborn>=0.13
+wordcloud>=1.9
+nbformat>=5.10
+nbconvert>=7.16
+ipykernel>=6.29
