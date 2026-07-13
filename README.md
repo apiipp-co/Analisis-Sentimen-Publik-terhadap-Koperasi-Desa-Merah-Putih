@@ -1,5 +1,7 @@
 # Sentiment Analysis: Koperasi Desa Merah Putih (Kopdes)
 
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit-success?style=for-the-badge)](https://kopdes-sentiment-analysis.streamlit.app)
+
 Analisis sentimen publik Indonesia terhadap program **Koperasi Desa Merah Putih (Kopdes)**
 berdasarkan 220.051 komentar TikTok riil dari 27 video, menggunakan pipeline end-to-end mulai
 dari data collection hingga deployment production-ready.
